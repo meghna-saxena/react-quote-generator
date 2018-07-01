@@ -28,17 +28,11 @@ class Quote extends Component {
 
     tweetQuote = () => {
         console.log('tweet', this.state)
-        let tweetUrl = `https://twitter.com/intent/tweet?text=${this.state.quote}\n -${this.state.author}`
+        let tweetUrl = `https://twitter.com/intent/tweet?text="${this.state.quote}"-${this.state.author}`
         window.open(tweetUrl, "", "width=500,height=300");
     }
 
     render() {
-        console.log("tatti", this.state)
-        // let rndmQuote;
-        // if (!this.state.quote) {
-        //     rndmQuote = <h3>loading..</h3>
-        // }
-
         return (
             <div className="container">
                 <div className="quote-card">
