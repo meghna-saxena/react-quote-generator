@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url('https://wallpapertag.com/wallpaper/full/1/7/d/139858-gorgerous-white-background-tumblr-2560x1440-free-download.jpg') no-repeat center fixed;
+  background-size: cover;
+}
+
+.container {
+  margin: 12% auto;
+}
+
+.quote-card {
+  border:1px solid #ccc;
+  border-radius:4px;
+  width:600px;
+  margin: 0 auto;
+  padding: 50px 30px 70px;
+  text-align:center;
+}
+
+button {
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  color: #6e6a6a;
+  font-size: 14px;
+  margin: 20px 2px;
+}
+
+button.quote:hover {
+  background-color: rgb(175, 174, 174);
+  color: #fff;
+
+}
+
+button.tweet:hover {
+  background-color:#00aced;
+  color: #fff;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
