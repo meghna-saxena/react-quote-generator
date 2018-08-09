@@ -2,7 +2,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: url('https://wallpapertag.com/wallpaper/full/1/7/d/139858-gorgerous-white-background-tumblr-2560x1440-free-download.jpg') no-repeat center fixed;
+  background: url("https://wallpapertag.com/wallpaper/full/1/7/d/139858-gorgerous-white-background-tumblr-2560x1440-free-download.jpg")
+    no-repeat center fixed;
   background-size: cover;
 }
 
@@ -11,12 +12,19 @@ body {
 }
 
 .quote-card {
-  border:1px solid #ccc;
-  border-radius:4px;
-  width:600px;
+  border-radius: 4px;
+  width: 600px;
+  /* height: 150px; */
   margin: 0 auto;
   padding: 50px 30px 70px;
-  text-align:center;
+  text-align: center;
+  font-size: 16px;
+  color: #635f5f
+}
+
+.quote-card:hover {
+  border: 1px solid #ccc;
+  color: rgb(125, 143, 137);
 }
 
 button {
@@ -33,11 +41,10 @@ button {
 button.quote:hover {
   background-color: rgb(175, 174, 174);
   color: #fff;
-
 }
 
 button.tweet:hover {
-  background-color:#00aced;
+  background-color: #00aced;
   color: #fff;
 }
 
@@ -46,6 +53,6 @@ button.tweet:hover {
 }
 
 .fa-twitter {
-  background: #55ACEE;
+  background: #55acee;
   color: white;
 }
